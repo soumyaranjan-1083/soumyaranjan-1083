@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="130" viewBox="0 0 820 130">
+  <defs>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="35%" stop-color="#22d3ee"/>
+      <stop offset="70%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="420 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .name {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 64px; font-weight: 800; letter-spacing: 2px;
+        text-anchor: middle;
+      }
+      .outline {
+        fill: none; stroke: url(#shine); stroke-width: 1.6;
+        stroke-dasharray: 1400; stroke-dashoffset: 1400;
+        animation: draw 2.6s ease forwards;
+      }
+      .fill {
+        fill: url(#shine); opacity: 0;
+        animation: fillin 1s ease 2.2s forwards, float 4s ease-in-out 3.2s infinite;
+      }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes fillin { to { opacity: 1; } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    </style>
+  </defs>
+
+  <g filter="url(#glow)">
+    <text class="name outline" x="410" y="82">Soumyaranjan Rout</text>
+    <text class="name fill" x="410" y="82">Soumyaranjan Rout</text>
+  </g>
+</svg>
