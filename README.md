@@ -12,12 +12,16 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=soumyaranjan-1083&label=Profile+views&color=8b5cf6&style=for-the-badge" alt="Profile views" />
-<img src="https://img.shields.io/badge/Built%20with-Claude%20%C2%B7%20Gemini%20%C2%B7%20Copilot-8b5cf6?style=for-the-badge" alt="Built with AI" />
-<img src="https://img.shields.io/github/followers/soumyaranjan-1083?style=for-the-badge&logo=github&color=8b5cf6&label=Followers" alt="Followers" />
-<img src="https://img.shields.io/github/stars/soumyaranjan-1083?style=for-the-badge&logo=github&color=f59e0b&label=Stars" alt="Stars" />
-<img src="https://img.shields.io/badge/Projects-1%20in%20beta-22d3ee?style=for-the-badge" alt="Projects" />
-<img src="https://img.shields.io/badge/Open%20to-ideas%20%26%20feedback-22d3ee?style=for-the-badge" alt="Open to ideas" />
+<p>
+  <img src="https://img.shields.io/badge/Built%20with-Claude%20%C2%B7%20Gemini%20%C2%B7%20Copilot-8b5cf6?style=for-the-badge" alt="Built with AI" />
+  <img src="https://img.shields.io/badge/Open%20to-ideas%20%26%20feedback-22d3ee?style=for-the-badge" alt="Open to ideas" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/github/followers/soumyaranjan-1083?style=for-the-badge&logo=github&color=8b5cf6&label=Followers" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/soumyaranjan-1083?style=for-the-badge&logo=github&color=f59e0b&label=Stars" alt="Stars" />
+  <img src="https://img.shields.io/badge/Projects-1%20in%20beta-22d3ee?style=for-the-badge" alt="Projects" />
+</p>
 
 </div>
 
